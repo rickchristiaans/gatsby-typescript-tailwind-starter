@@ -20,7 +20,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```shell
     # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/danangekal/gatsby-typescript-default-starter
+    gatsby new my-default-starter https://github.com/danangekal/gatsby-typescript-tailwind-starter
     ```
 
 1.  **Start developing.**
@@ -57,7 +57,9 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── gatsby-ssr.js
     ├── LICENSE
     ├── package.json
+    ├── postcss.config.js
     └── README.md
+    ├── tailwind.config.js
     └── tsconfig.json
 
 1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
@@ -84,9 +86,13 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 12. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-13. **`README.md`**: A text file containing useful reference information about your project.
+13. **`postcss.config.js`**: This is a configuration file for [postcss](https://postcss.org/). A tool for transforming CSS with JavaScript.
 
-14. **`tsconfig.json`**: This is a configuration file for [typescript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html). The tsconfig. json file allows you to specify the root level files and the compiler options that requires to compile a TypeScript project.
+14. **`README.md`**: A text file containing useful reference information about your project.
+
+15. **`tailwind.config.js`**: This is a configuration file for [tailwindcss](https://tailwindcss.com/docs).
+
+16. **`tsconfig.json`**: This is a configuration file for [typescript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html). The tsconfig. json file allows you to specify the root level files and the compiler options that requires to compile a TypeScript project.
 
 ## 🗒️ Features
 
@@ -97,6 +103,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 - [Prettier 2](https://prettier.io/docs/en/index.html) - Documentation of Prettier.
 - [Husky 5](https://typicode.github.io/husky/#/) - Documentation of Husky.
 - [lint-staged 10](https://github.com/okonet/lint-staged) - Documentation of lint-staged.
+- [Tailwind CSS 2](https://tailwindcss.com/docs/) - Documentation of Tailwind CSS.
 - [Gatsby Image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image) - Documentation of gatsby image for optimize image loading sites.
 - [Gatsby Offline](https://www.gatsbyjs.com/plugins/gatsby-plugin-offline) - Documentation of gatsby offline for PWA.
 - [Gatsby Manifest](https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest) - Documentation of gatsby manifest for PWA.
@@ -118,8 +125,8 @@ Built with [Gatsby](https://www.gatsbyjs.org/) - the blazing-fast static site ge
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danangekal/gatsby-typescript-default-starter)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danangekal/gatsby-typescript-tailwind-starter)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/danangekal/gatsby-typescript-default-starter)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/danangekal/gatsby-typescript-tailwind-starter)
 
 <!-- AUTO-GENERATED-CONTENT:END -->

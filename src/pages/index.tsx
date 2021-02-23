@@ -9,13 +9,15 @@ function IndexPage(): ReactElement {
   return (
     <Layout>
       <SEO title="Home" />
-      <h1>Hi people</h1>
-      <p>Welcome to your new Gatsby site with typescript.</p>
-      <p>Now go build something great.</p>
-      <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
+      <h1 className="text-4xl font-bold font-sans mb-6">Hi people</h1>
+      <p className="mb-6">
+        Welcome to your new Gatsby site with Typescript & Tailwind CSS.
+      </p>
+      <p className="mb-6">Now go build something great.</p>
+      <div className="max-w-xs mb-6">
         <Image />
       </div>
-      <Link to="/page-2/">Go to page 2</Link>
+      <Link className="text-purple-600 underline hover:text-purple-800 active:text-purple-800" to="/page-2/">Go to page 2</Link>
     </Layout>
   );
 }

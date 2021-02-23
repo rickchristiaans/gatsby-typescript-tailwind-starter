@@ -8,9 +8,16 @@ function SecondPage(): ReactElement {
   return (
     <Layout>
       <SEO title="Page Two" />
-      <h1>Hi from the second page</h1>
-      <p>Welcome to page 2</p>
-      <Link to="/">Go back to the homepage</Link>
+      <h1 className="text-4xl font-bold font-sans mb-6">
+        Hi from the second page
+      </h1>
+      <p className="mb-6">Welcome to page 2</p>
+      <Link
+        className="text-purple-600 underline hover:text-purple-800 active:text-purple-800"
+        to="/"
+      >
+        Go back to the homepage
+      </Link>
     </Layout>
   );
 }

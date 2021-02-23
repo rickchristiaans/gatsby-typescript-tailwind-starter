@@ -9,7 +9,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 
 import Header from './header';
-import './layout.css';
+// import './layout.css';
 
 interface LayoutProps {
   children: ReactNode;
@@ -29,25 +29,20 @@ function Layout({ children }: LayoutProps): ReactElement {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || 'Title'} />
-      <div
-        style={{
-          margin: '0 auto',
-          maxWidth: 960,
-          padding: '0 1.0875rem 1.45rem',
-        }}
-      >
+      <div className="my-0 mx-auto max-w-4xl pt-0 px-4 pb-6">
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: '2rem',
-          }}
-        >
+        <footer className="mt-8">
           ©
           {' '}
           {new Date().getFullYear()}
           , Built with
           {' '}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <a
+            className="text-purple-600 underline hover:text-purple-800 active:text-purple-800 font-sans"
+            href="https://www.gatsbyjs.com"
+          >
+            Gatsby
+          </a>
         </footer>
       </div>
     </>
